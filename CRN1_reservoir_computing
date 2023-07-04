@@ -1,7 +1,7 @@
 using Plots, OrdinaryDiffEq, ReservoirComputing, Random
 using Plots.PlotMeasures
 
-
+#function seed 
 Random.seed!(42)
 
 # Define the function for the Lotka-Volterra equations
