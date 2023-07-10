@@ -1,0 +1,8 @@
+using Random
+#understanding random function in julia 
+Random.seed!(43)
+C = Random.rand(1:3)
+D = Random.rand(1:3)
+
+println("C: ", C)
+print("D: ", D)

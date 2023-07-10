@@ -2,7 +2,7 @@ using Plots, OrdinaryDiffEq, ReservoirComputing, Random
 using Plots.PlotMeasures
 
 
-#Random.seed!(4242)
+Random.seed!(4242)
 #define lorenz system
 function lorenz!(du,u,p,t)
     du[1] = 10.0*(u[2]-u[1])
